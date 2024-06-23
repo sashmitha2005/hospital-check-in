@@ -1,0 +1,15 @@
+
+
+.doctor-list {
+    max-height: 400px; 
+    overflow-y: auto; 
+    margin-top: 20px; 
+  }
+  
+  .doctor-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  

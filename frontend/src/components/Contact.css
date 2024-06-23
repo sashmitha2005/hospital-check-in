@@ -1,0 +1,106 @@
+.contact-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    overflow-y: auto;
+    position: relative;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .background-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+  }
+  
+  .background-slider {
+    display: flex;
+    width: 500%;
+    height: 100%;
+    animation: slide 25s infinite linear; 
+  }
+  
+  .slide {
+    width: 20%; 
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  @keyframes slide {
+    0% { transform: translateX(0); }
+    20% { transform: translateX(-100%); }
+    40% { transform: translateX(-200%); }
+    60% { transform: translateX(-300%); }
+    80% { transform: translateX(-400%); }
+    100% { transform: translateX(0); }
+  }
+  
+  .content {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin-top: 60px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    width: 100%;
+  }
+  
+  .contact-form label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .contact-form button {
+    align-self: center;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .confirmation-message {
+    margin-top: 20px;
+    color: green;
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,93 @@
+.search-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    background: url('https://static.vecteezy.com/system/resources/previews/044/080/212/non_2x/doctor-serach-line-filled-light-icon-vector.jpg') no-repeat center center;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .content {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 900px;
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    padding-top: 20px;
+  }
+  
+  .results {
+    margin-top: 20px;
+  }
+  
+  .result-item {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .book-now-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+  }
+  
+  .book-now-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .booking-form {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    width: 100%;
+    margin: 20px auto;
+  }
+  
+  .booking-form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .booking-form input,
+  .booking-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .booking-form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .booking-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .success-message {
+    color: green;
+    font-weight: bold;
+  }
+  

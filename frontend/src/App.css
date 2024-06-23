@@ -1,0 +1,10 @@
+/* App.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0; /* Optional: Set background color for the entire page */
+}
+
+.App {
+  margin-top: 60px; /* Adjust according to navbar height */
+}
